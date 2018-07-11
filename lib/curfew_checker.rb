@@ -1,7 +1,7 @@
 def simple_curfew_checker(time)
   # code goes here
   if time == 11
-    puts "You're in trouble if its "
+    puts "You're in trouble."
 end
 
 
