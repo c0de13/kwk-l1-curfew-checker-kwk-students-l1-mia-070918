@@ -1,6 +1,6 @@
 cart_item_prices = [12.43, 19.99, 3.49, 75.00]
 
-cart_item_prices << 26.00
+cart_item_prices << 5.50
 
 state_tax = 0.06 #this is the state tax in Florida
 
@@ -23,3 +23,21 @@ cart_item_prices.each do |x|
 end
 
 puts arr
+
+
+big_ticket = []
+itemsRem = "The items in the cart that were removed :"
+count = 1 
+
+#for each element in arr 
+arr.each do |x|
+  
+#check if item is bigger than 15
+  if x > 15
+    big_ticket << x 
+    itemsRem += " #{"
+  else  
+  count += 1 
+  
+end #do end  
+
