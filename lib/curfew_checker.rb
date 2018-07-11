@@ -1,7 +1,7 @@
 def simple_curfew_checker(time)
   # code goes here
   if time == 11
-    puts "You"
+    puts "You'r "
 end
 
 
