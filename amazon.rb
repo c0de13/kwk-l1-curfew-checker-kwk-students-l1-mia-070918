@@ -15,5 +15,5 @@ cart_item_prices.each do |x|
 
 #output the price + tax, going to store in a new Array
   puts "Item #{count}:  $#{total_price}."
-  count ++
+  count += 1 
 end
