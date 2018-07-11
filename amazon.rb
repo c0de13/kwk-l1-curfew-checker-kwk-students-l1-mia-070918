@@ -28,6 +28,7 @@ puts arr
 big_ticket = []
 itemsRem = "The items in the cart that were removed :"
 count = 1 
+remTOTAL = 0
 
 #for each element in arr 
 arr.each do |x|
@@ -36,6 +37,7 @@ arr.each do |x|
   if x > 15
     big_ticket << x 
     itemsRem += " #{count},"
+    remTOTAL += x
   end
   count += 1 
   
@@ -43,3 +45,4 @@ end #do end
 
 puts itemsRem
 puts big_ticket
+puts remTOTAL
