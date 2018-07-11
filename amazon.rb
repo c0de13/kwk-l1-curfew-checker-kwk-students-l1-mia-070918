@@ -22,4 +22,4 @@ cart_item_prices.each do |x|
   count += 1 
 end
 
-puts total_price
+puts arr
