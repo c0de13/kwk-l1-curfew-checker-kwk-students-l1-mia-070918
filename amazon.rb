@@ -7,6 +7,9 @@ state_tax = 0.06 #this is the state tax in Florida
 
 
 count = 1 
+
+arr = []
+
 #for each item in the cart_item_prices
 cart_item_prices.each do |x|
 
@@ -15,5 +18,8 @@ cart_item_prices.each do |x|
 
 #output the price + tax, going to store in a new Array
   puts "Item #{count}:  $#{total_price}."
+  arr << total_price
   count += 1 
 end
+
+puts total_price
