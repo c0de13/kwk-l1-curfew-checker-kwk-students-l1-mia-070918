@@ -9,7 +9,7 @@ state_tax = 0.06 #this is the state tax in Florida
 cart_item_prices.each do |x|
 
 #multiply by (1+state_tax)
-  total_price =( x * (1 + state_tax) ) + 0.005
+  total_price = x * (1 + state_tax) 
 
 #output the price + tax, going to store in a new Array
   puts total_price
