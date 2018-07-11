@@ -47,5 +47,7 @@ end #do end
 
 puts itemsRem
 puts big_ticket
+
+#i NEED to fix  (tot)  and convert it to a number so i can subtract it by the removed items  (itemsRem)
 #tot = tot - itemsRem
 puts "The total amount is $#{tot}."
