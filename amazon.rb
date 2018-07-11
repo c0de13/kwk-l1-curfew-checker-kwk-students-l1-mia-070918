@@ -2,7 +2,7 @@ cart_item_prices = [12.43, 19.99, 3.49, 75.00]
 
 cart_item_prices << 5.50
 
-state_tax = 0.06 #this is the state tax in Florida
+state_tax = 0.101 #this is the state tax in Florida
 
 
 #for each item in the cart_item_prices
