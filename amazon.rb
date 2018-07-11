@@ -35,9 +35,11 @@ arr.each do |x|
 #check if item is bigger than 15
   if x > 15
     big_ticket << x 
-    itemsRem += " #{"
-  else  
+    itemsRem += " #{count},"
+  end
   count += 1 
   
 end #do end  
 
+puts itemsRem
+puts big_ticket
