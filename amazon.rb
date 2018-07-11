@@ -47,5 +47,5 @@ end #do end
 
 puts itemsRem
 puts big_ticket
-tot = tot - itemsRem
+#tot = tot - itemsRem
 puts "The total amount is $#{tot}."
